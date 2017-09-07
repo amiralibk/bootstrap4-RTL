@@ -8,8 +8,11 @@ It was made for the Iranians ;) It's great !
 Let's go : 
 
 
-Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load RTL CSS.
+Copy-paste the stylesheet into your head tag before all other stylesheets to load RTL CSS.
 
+```html
 <link rel="stylesheet" href="css/bootstrap-rtl.css">
+```
+
 
 
