@@ -3372,7 +3372,7 @@ tbody.collapse.show {
 
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
-        flex-direction: row
+        flex-direction: row;
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -6802,7 +6802,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .mr-auto {
-    margin-right: auto !important
+    margin-left: auto !important;
 }
 
 .mb-auto {
