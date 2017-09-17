@@ -359,27 +359,27 @@ template {
 }
 
 .h1, h1 {
-    font-size: 2.5rem
+    font-size: 18px
 }
 
 .h2, h2 {
-    font-size: 2rem
+    font-size: 14px
 }
 
 .h3, h3 {
-    font-size: 1.75rem
+    font-size: 12px
 }
 
 .h4, h4 {
-    font-size: 1.5rem
+    font-size: 11px
 }
 
 .h5, h5 {
-    font-size: 1.25rem
+    font-size: 10px
 }
 
 .h6, h6 {
-    font-size: 1rem
+    font-size: 9px
 }
 
 .lead {
@@ -2825,17 +2825,17 @@ tbody.collapse.show {
 }
 
 .input-group .form-control:not(:last-child), .input-group-addon:not(:last-child), .input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn, .input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:not(:last-child) > .btn, .input-group-btn:not(:last-child) > .btn-group > .btn, .input-group-btn:not(:last-child) > .dropdown-toggle {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .input-group-addon:not(:last-child) {
-    border-right: 0
+    border-left: 0;
 }
 
 .input-group .form-control:not(:first-child), .input-group-addon:not(:first-child), .input-group-btn:not(:first-child) > .btn, .input-group-btn:not(:first-child) > .btn-group > .btn, .input-group-btn:not(:first-child) > .dropdown-toggle, .input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn, .input-group-btn:not(:last-child) > .btn:not(:first-child) {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .form-control + .input-group-addon:not(:first-child) {
@@ -3372,7 +3372,7 @@ tbody.collapse.show {
 
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
-        flex-direction: row;
+        flex-direction: row
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -6802,7 +6802,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .mr-auto {
-    margin-left: auto !important;
+    margin-right: auto !important
 }
 
 .mb-auto {
